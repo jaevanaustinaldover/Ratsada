@@ -1,0 +1,426 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+a img
+{
+    border: 0;
+}
+
+ul li
+{
+    list-style: none;
+    display: inline;
+}
+
+body
+{
+    background: white;
+}
+
+img
+{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#textbox1
+{
+    border: 2px solid #5A9DCB;
+    border-radius: 10px;
+    padding: 5px;
+    color: #5A9DCB;
+	font: normal 24px/100% Raleway;
+    text-align: left;
+    outline: none;
+}
+
+#textbox1:selected
+{
+    border: 2px solid #5A9DCB;
+    border-radius: 10px;
+    padding: 5px;
+    color: #5A9DCB;
+	font: normal 24px/100% Raleway;
+    text-align: left;
+    text-align: left;
+    outline: none;
+}
+
+#textbox1:hover
+{
+    border: 2px solid #5A9DCB;
+    border-radius: 10px;
+    padding: 5px;
+    color: #5A9DCB;
+	font: normal 24px/100% Raleway;
+    text-align: left;
+    outline: none;
+}
+
+#button1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -30px;
+  top: 0px;
+
+  background-image: url("/Ratsada/images/search.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+    outline: none;
+    border: none;
+}
+
+#header
+{
+    background: white;
+    padding: 20px;
+}
+
+#headerlinks
+{
+    background: #5A9DCB;
+}
+
+#headerlink1
+{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+#headerlink1:hover
+{
+	background: #8CC63E;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+#front
+{
+	background: #97CADC;
+	padding-top: 30px;
+	opacity: 0.6;
+	overflow-x: hidden;
+}
+
+
+#trending
+{
+    background: #8CC63E;
+    padding: 25px;
+}
+
+#trending_products
+{
+    padding-top: 20px;
+    align: center;
+    background: #EFEFEF;
+    padding-bottom: 20px;
+}
+
+#About1
+{
+    padding-top: 40px;
+    background: #EFEFEF;
+    padding-bottom: 40px;
+}
+
+
+#About2
+{
+    background: #8CC63E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Contact1
+{
+    background: #8CC63E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Contact2
+{
+    background: #5A9DCB;
+    overflow: hidden;
+}
+
+#Contact3
+{
+    background: #E6E7E8;
+    overflow-x: hidden;
+  background-image: url("/Ratsada/images/bg5.png");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+}
+
+#Policy1
+{
+    background: #8CC63E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Policy2
+{
+    background: #E6E7E8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Category1
+{
+    background: #8CC63E;
+}
+
+#Category1a
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#Category2
+{
+    background: #E6E7E8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#FilterBox
+{
+	width: 100%;
+	margin-top: -130px;
+	background: #8CC63E;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 2px #8CC63E;
+}
+
+#FilterBox1
+{
+	border-radius: 13px;
+	border: 2px solid white;
+	background: #5A9DCB;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#FilterBox2
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+#FilterBox2:hover
+{
+	background: #22516B;
+}
+
+#howtoorder
+{
+	background: #5A9DCB;
+	padding: 20px;
+}
+
+#footer
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#ViewProduct
+{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#product
+{
+	padding: 10px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+
+#productbox
+{
+	border-radius: 10px;
+	border: 1px solid #8CC63E;
+	padding: 20px;
+	width: 250px;
+	align: center;
+	text-align: center;
+	height: 350px;
+	background: white;
+	display: inline-block;
+}
+
+#productbox:hover
+{
+	border-radius: 10px;
+	border: 1px solid #5A9DCB;
+	padding: 20px;
+	width: 250px;
+	align: center;
+	text-align: center;
+	height: 350px;
+	background: white;
+	display: inline-block;
+}
+
+#ProductCart1
+{
+	padding-top: 15px;
+}
+
+#ProductCart
+{
+	border-radius: 50%;
+	background: #8CC63E;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#productbox:hover #ProductCart
+{
+	border-radius: 50%;
+	background: #5A9DCB;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#ProductStatus
+{
+	margin-top: -400px;
+	margin-right: -35px;
+}
+
+#SALE
+{
+	border-radius: 50%;
+	background: #BE1E2D;
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	align: center;
+	border: 1px solid white;
+}
+
+#HOT
+{
+	border-radius: 50%;
+	background: #EF4036;
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	align: center;
+	border: 1px solid white;
+}
+
+#NEW
+{
+	border-radius: 50%;
+	background: #2A388F;
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	align: center;
+	border: 1px solid white;
+}
+
+#AddToCart
+{
+	border-radius: 10px;
+	background: #8CC63E;
+	padding: 10px;
+	border: 0;
+	display: inline-block;
+}
+
+#AddToCart:hover
+{
+	border-radius: 10px;
+	background: #7fb23a;
+	padding: 10px;
+	border: 0;
+	display: inline-block;
+}
+
+.animation-lg {
+    position: absolute;
+	width: 2000%;
+    -webkit-animation: moveSlideshow 25s linear infinite;
+    -moz-animation:    moveSlideshow 25s linear infinite;
+}
+
+.animation1-lg {
+    position: absolute;
+	width: 2000%;
+    -webkit-animation: moveSlideshow 15s linear infinite;
+    -moz-animation:    moveSlideshow 15s linear infinite;
+}
+
+.animation2-lg {
+    position: absolute;
+	width: 2000%;
+    -webkit-animation: moveSlideshow 20s linear infinite;
+    -moz-animation:    moveSlideshow 20s linear infinite;
+}
+
+.animation3-lg {
+    position: absolute;
+	width: 50000px;
+    -webkit-animation: moveSlideshow1 15s linear infinite;
+    -moz-animation:    moveSlideshow1 15s linear infinite;
+}
+
+@-webkit-keyframes moveSlideshow {
+    0% { left: -100%; }
+    100% { left: 0; }
+}
+@-moz-keyframes moveSlideshow {
+    0% { left: -100%; }
+    100% { left: 0; }
+}
+
+@-webkit-keyframes moveSlideshow1 {
+    0% { left: 300%; }
+    100% { left: -300%; }
+}
+@-moz-keyframes moveSlideshow1 {
+    0% { left: 300%; }
+    100% { left: -300%; }
+}
+
+.animation-lg img {
+	width: 10%;
+    float: right;
+}
+
+.animation1-lg img {
+	width: 8%;
+    float: left;
+}
+
+.animation2-lg img {
+	width:4%;
+    float: left;
+}
+
+.animation3-lg img {
+	width: 8%;
+    float: left;
+}

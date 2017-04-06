@@ -1,0 +1,157 @@
+/*HEADER*/
+
+.header {font-size:40px; letter-spacing: 0px; font-family: Pacifico; color: white; padding:5px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; max-width: 100%;
+}
+
+.headerlink {font-size:18px; letter-spacing: 0px; font-family: Quicksand; color: white; padding:5px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*PRODUCTS*/
+.Product {font-size:20px; letter-spacing: 0px; font-family: Josefin Sans; color: #404041; padding:5px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto; font-weight: bold;
+		white-space: nowrap; overflow: hidden;
+}
+
+.ProductPrice {font-size:25px; letter-spacing: 0px; font-family: Montserrat Alternates; color: #5A9DCB; padding:5px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto; font-weight: bold;
+		white-space: nowrap; overflow: hidden;
+}
+
+.ProductStatus {font-size:12px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*VIEW PRODUCT*/
+.ViewProduct {font-size:15px; letter-spacing: 0px; font-family: Raleway; color: #404041; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.ViewProduct1 {font-size:15px; letter-spacing: 0px; font-family: Raleway; color: #5A9DCB; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.ViewProduct1:link {font-size:15px; letter-spacing: 0px; font-family: Raleway; color: #5A9DCB; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.ViewProduct1:selected {font-size:15px; letter-spacing: 0px; font-family: Raleway; color: #5A9DCB; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.ViewProduct1:hover {font-size:15px; letter-spacing: 0px; font-family: Raleway; color: #5A9DCB; padding:0px;
+		line-height:100%; clear:both; text-decoration:underline; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.ViewProduct2 {font-size:50px; letter-spacing: 0px; font-family: Josefin Sans; color: #404041; padding:5px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto; font-weight: bold;
+}
+
+.ViewProduct3 {font-size:30px; letter-spacing: 0px; font-family: Montserrat Alternates; color: #5A9DCB; padding:5px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto; font-weight: bold;
+}
+
+.ViewProduct4 {font-size:20px; letter-spacing: 0px; font-family: Raleway; color: #404041; padding:0px;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+		font-weight: bold;
+}
+
+.ViewProduct5 {font-size:18px; letter-spacing: 0px; font-family: Raleway; color: #404041; padding:0px;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.AddToCart {font-size:19px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*STOCKS*/
+.Stock1 {font-size:20px; letter-spacing: 0px; font-family: Raleway; color: #5A9DCB; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+		font-weight: bold;
+}
+
+.Stock2 {font-size:20px; letter-spacing: 0px; font-family: Raleway; color: #e2803b; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+		font-weight: bold;
+}
+
+.Stock3 {font-size:20px; letter-spacing: 0px; font-family: Raleway; color: #d6354a; padding:0px;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+		font-weight: bold;
+}
+/*HOMEPAGE*/
+.home {font-size:55px; letter-spacing: 0px; font-family: Pacifico; color: #5A9DCB; padding:5px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.home1 {font-size:18px; letter-spacing: 0px; font-family: Raleway; color: white; padding:5px; display: inline; position:block;
+		line-height:120%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*FOOTER*/
+.footer1 {font-size:30px; letter-spacing: 0px; font-family: Quicksand; color: #5A9DCB; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto; font-weight: bold;
+}
+
+.footer2 {font-size:20px; letter-spacing: 0px; font-family: Quicksand; color: #404041; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.footer2:link {font-size:20px; letter-spacing: 0px; font-family: Quicksand; color: #404041; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.footer2:selected {font-size:20px; letter-spacing: 0px; font-family: Quicksand; color: #404041; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.footer2:hover {font-size:20px; letter-spacing: 0px; font-family: Quicksand; color: #404041; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:underline; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.footer3 {font-size:20px; letter-spacing: 0px; font-family: Quicksand; color: #404041; padding:5px; display: inline; position:block;
+		line-height:130%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*ABOUT & CONTACT*/
+.about1 {font-size:25px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.about2 {font-size:14px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.contact1 {font-size:60px; letter-spacing: 0px; font-family: Raleway; color: white; padding:5px; display: inline; position:block;
+		line-height:120%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.contact2 {font-size:16px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.contact3 {font-size:23px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.contact4 {font-size:25px; letter-spacing: 0px; font-family: Raleway; color: #404041; padding:0px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.policy1 {font-size:40px; letter-spacing: 0px; font-family: Pacifico; color: #5A9DCB; padding:5px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+/*MAIN*/
+.main1 {font-size:16px; letter-spacing: 0px; font-family: Raleway; color: #404041; padding:0px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.FilterBy1 {font-size:25px; letter-spacing: 0px; font-family: Raleway; color: white; padding:10px; display: inline; position:block;
+		line-height:150%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
+
+.FilterBy2 {font-size:19px; letter-spacing: 0px; font-family: Raleway; color: white; padding:0px; display: inline; position:block;
+		line-height:100%; clear:both; text-decoration:none; margin: 0 auto; max-width: 100%; height: auto;
+}
