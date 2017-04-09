@@ -2,10 +2,10 @@
 <%@ page import="java.io.*" %>	
 <%
 
-    String server = "localhost";
+    String server = "localhost:50894";
     String database = "Ratsada";
-    String userName = "11416088";
-    String password = "warcraft3";
+    String userName = "sa";
+    String password = "benilde";
     
     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
     String connectionUrl = "jdbc:sqlserver://"+server+";databaseName="+database+";";

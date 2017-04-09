@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isErrorPage="true" errorPage="/WEB-INF/error.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -12,7 +12,6 @@
 	{
 		response.sendRedirect(request.getContextPath() + "/Smartphones/?Products=ALL");
 	}
-
 %>
 <jsp:include page="/WEB-INF/header.jsp" />
 	<div id="Category1">
@@ -39,6 +38,7 @@
 					<a href="?Products=ALL"><div id="FilterBox2"><p class="FilterBy2">ALL</p></div></a>
 <%@ include file="/WEB-INF/sql.jsp" %>
 <% 
+
 	String sql = "SELECT DISTINCT BrandName FROM Products a" +
 		" INNER JOIN Brands b ON a.BrandID=b.BrandID" +
 		" INNER JOIN Category c ON a.CategoryID=c.CategoryID" +
@@ -76,13 +76,15 @@
 			</div>
 			<div class="col-md-9">
 <% 
-	String sql1 = "SELECT * FROM Products a" +
+	if(request.getParameter("Products").equals("ALL"))
+	{
+			String sql1 = "SELECT * FROM Products a" +
 			" LEFT JOIN Status b ON a.ProductStatus=b.StatusID" +
 			" LEFT JOIN Category c ON a.CategoryID=c.CategoryID" +
 			" WHERE (a.Status = 1 AND c.CategoryName = 'Smartphones') AND Stocks != 0";
-	Statement stmt1 = con.createStatement();
-	ResultSet rs1 = stmt1.executeQuery(sql1);
-	
+			Statement stmt1 = con.createStatement();
+			ResultSet rs1 = stmt1.executeQuery(sql1);
+
     while(rs1.next())
     {
     	String StatusName = rs1.getString("StatusName");
@@ -115,12 +117,13 @@
 			</div>
 			</div>
 <% 
-     }
-
+    }
+    
     rs1.close();
     stmt1.close();
+	}
 %>
-			</div>
+		</div>
 		</div>
 		</div>
 	</div>

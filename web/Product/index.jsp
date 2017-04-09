@@ -1,38 +1,39 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ include file="/WEB-INF/sql.jsp" %>
 <%
-	if(request.getParameter("ProductID")==null)
+	String ProductID = request.getParameter("ProductID");
+
+	if (ProductID == null)
 	{
 		response.sendRedirect(request.getContextPath());
-		String ProductID = "1";
+		return;
 	}
-	else
-	{
-		String ProductID = request.getParameter("ProductID");
-	}
+	
 	String sql = "SELECT * FROM Products a" +
 	" LEFT JOIN Category b ON a.CategoryID=b.CategoryID" +
 	" LEFT JOIN Status c ON a.ProductStatus=c.StatusID" +
-	" WHERE a.ProductID='" + ProductID + "'";
-	Statement stmt = con.createStatement();
-	ResultSet rs = stmt.executeQuery(sql);
+	" WHERE a.ProductID=?";
 	
-    while(rs.next())
-    {
+	PreparedStatement stmt = con.prepareStatement(sql);
+	stmt.setInt(1, Integer.parseInt(ProductID));
+	ResultSet rs = stmt.executeQuery();
+	
+    if(rs.next())
+    {   
     	float Stocks = Float.parseFloat(rs.getString("Stocks"));
     	String Specs = rs.getString("Specs");
     	String ProductInclusions = rs.getString("ProductInclusions");
     	String Warranty = rs.getString("Warranty");
+    	
 %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" isErrorPage="true" errorPage="/WEB-INF/error.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>Ratsada! | <%=rs.getString("ProductName") %></title>
+    <title>Ratsada! | View Product</title>
     <jsp:include page="/head.jsp" />
 </head>
 <body>
-
 <jsp:include page="/WEB-INF/header.jsp" />
 	<div id="ViewProduct">
 		<div class="container">
@@ -104,13 +105,19 @@
 			</div>
 		</div>
 	</div>
+<hr>
+	<jsp:include page="/WEB-INF/footer.jsp" />
+</body>
+</html>
 <% 
+    
+	}
+    else
+    {
+		response.sendRedirect(request.getContextPath());
+		return;
     }
     rs.close();
     stmt.close();
     con.close();
 %>
-<hr>
-	<jsp:include page="/WEB-INF/footer.jsp" />
-</body>
-</html>
